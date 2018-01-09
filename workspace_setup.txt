@@ -1,0 +1,4 @@
+/home/robot/DRL
+- add eigen symlink
+- put rbdl and qpOASES in lib path
+
