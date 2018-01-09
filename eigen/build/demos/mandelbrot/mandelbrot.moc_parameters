@@ -1,0 +1,7 @@
+-I/home/tapgar/eigen
+-I/home/tapgar/eigen/build
+-I/usr/include/qt4
+-DNDEBUG
+-o
+/home/tapgar/eigen/build/demos/mandelbrot/mandelbrot.moc
+/home/tapgar/eigen/demos/mandelbrot/mandelbrot.h
