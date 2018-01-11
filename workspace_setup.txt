@@ -1,4 +1,18 @@
-/home/robot/DRL
-- add eigen symlink
-- put rbdl and qpOASES in lib path
+/home/drl/workspace
 
+- add eigen symlink
+sudo ln -s /home/drl/workspace/ThirdParty/eigen /usr/local/include/eigen
+
+- build rbdl
+cd rbdl
+rm -rf build
+mkdir build
+cd build
+cmake -D CMAKE_BUILD_TYPE=Release ../ 
+make
+
+- build qpOASES
+cd qpOASES
+make clean; make
+
+you're done!
