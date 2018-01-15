@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC
 
 CXX_DEFINES = -Drbdl_EXPORTS
 
-CXX_INCLUDES = -I/home/robot/DRL/ThirdParty/rbdl/include -I/home/robot/DRL/ThirdParty/rbdl/build/include -I/usr/local/include/eigen 
+CXX_INCLUDES = -I/home/tapgar/workspace/ThirdParty/rbdl/include -I/home/tapgar/workspace/ThirdParty/rbdl/build/include -I/usr/local/include/eigen 
 
