@@ -226,7 +226,7 @@ CPACK_SOURCE_TZ:BOOL=ON
 CPACK_SOURCE_ZIP:BOOL=OFF
 
 //Path to a file.
-EIGEN3_INCLUDE_DIR:PATH=/usr/local/include/eigen
+EIGEN3_INCLUDE_DIR:PATH=/usr/local/include/eigen3
 
 //Value Computed by CMake
 RBDL_BINARY_DIR:STATIC=/home/tapgar/workspace/ThirdParty/rbdl/build
@@ -438,7 +438,7 @@ CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: EIGEN3_INCLUDE_DIR
 EIGEN3_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Details about finding Eigen3
-FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[/usr/local/include/eigen][TRUE][v(3.0.0)]
+FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[/usr/local/include/eigen3][TRUE][v(3.0.0)]
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 

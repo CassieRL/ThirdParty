@@ -1,4 +1,6 @@
-/home/drl/workspace
+add the following to the end of your .bashrc file
+export workspacePath=/home/tapgar/workspace (wherever the ThirdParty and TestStand folders are located)
+source ~/.bashrc
 
 - add eigen symlink
 sudo ln -s /home/drl/workspace/ThirdParty/eigen /usr/local/include/eigen
