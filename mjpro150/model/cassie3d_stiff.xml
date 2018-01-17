@@ -184,12 +184,12 @@
     <motor name='left_yaw' joint='left_yaw' gear='25' ctrllimited='true' ctrlrange='-4.5 4.5' user='2900'/>
     <motor name='left_hip' joint='left_hip' gear='16' ctrllimited='true' ctrlrange='-12.2 12.2' user='1300'/>
     <motor name='left_knee_spring' joint='left_knee_spring' gear='16' ctrllimited='true' ctrlrange='-12.2 12.2' user='1300'/>
-    <motor name='left_toe' joint='left_toe' gear='50' ctrllimited='true' ctrlrange='-0.9 0.9' user='5500'/>
+    <motor name='left_toe' joint='left_toe' gear='100' ctrllimited='true' ctrlrange='-0.9 0.9' user='5500'/>
     <motor name='right_abduction' joint='right_abduction' gear='25' ctrllimited='true' ctrlrange='-4.5 4.5' user='2900'/>
     <motor name='right_yaw' joint='right_yaw' gear='25' ctrllimited='true' ctrlrange='-4.5 4.5' user='2900'/>
     <motor name='right_hip' joint='right_hip' gear='16' ctrllimited='true' ctrlrange='-12.2 12.2' user='1300'/>
     <motor name='right_knee_spring' joint='right_knee_spring' gear='16' ctrllimited='true' ctrlrange='-12.2 12.2' user='1300'/>
-    <motor name='right_toe' joint='right_toe' gear='50' ctrllimited='true' ctrlrange='-0.9 0.9' user='5500'/>
+    <motor name='right_toe' joint='right_toe' gear='100' ctrllimited='true' ctrlrange='-0.9 0.9' user='5500'/>
   </actuator>
 
   <sensor>
