@@ -1,0 +1,11 @@
+prefix=/home/jhogg/src/coinhsl/bin-linux_x86_64/coinhsl-linux-x86_64-2014.01.10
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: HSL
+Description: HSL Mathematical Software Library compiled for COIN-OR
+Version: 2015.06.23
+Libs: -L${libdir} -lcoinhsl
+Cflags: -I${includedir}
+Requires:
